@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0; 
+    padding: 0; 
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden; 
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(0, 47, 91);
+}
+header {
+    background-color: #000000ab;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+#sobre2 {
+    color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 150px;
+}
+#centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    background-image: url('static/2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.main3, .main5 {
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+}
+.main2, .main3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 70px;
+}
+.main4 {
+    background-color: aliceblue;
+    height: 130vh;
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Alinha os itens na vertical */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+#laptop {
+    width: 700px;
+    height: auto;
+}
+.content {
+    max-width: 600px;
+    margin: 0 auto;     
+    text-align: center;
+}
+#servicos, #contato {
+    max-width: 800px;
+    margin-top: 20px;
+}
+#servicos h2, #contato h2 {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+#servicos p, #contato p {
+    font-size: 16px;
+    color: white;
+}
+#perfil_profissional {
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.main3{
+    position: relative;
+}
+#predio {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 700px;
+    height: auto;
+}
+#Projetos {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 125px;
+
+}
+.projeto-img {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 10px;
+}
+#chess {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    width: 400px;
+    height: auto;
+}
+#vortex{
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: auto;
+    margin-bottom: -190px;
+}
+#chess:hover {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8);
+}
+
+#servicos{
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px; 
+}
+
+h3 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #929292;
+    padding-left: 10px;
+    border-left: 4px solid #929292;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+h5 {
+    font-size: 33px;
+    text-align: center;
+}
+h6 {
+    font-size: 44px;
+    text-align: center;
+    margin-top: 40px;
+}
+h2, #sobre, #sobre2 {
+    text-align: center;
+}
+h1 {
+    font-weight: normal;
+}
+.main3, .main4 {
+    margin: 0;
+    padding: 0;
+}
+.content-with-image {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Garante que o conteúdo ocupe a altura total da tela */
+}
+  
+  .text-content {
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+  
+  #wl {
+    width: 10%; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    display: block; /* Certifique-se de que a imagem se comporte como um bloco */
+    margin: 0 auto; /* Garante que a imagem seja centralizada */
+}
