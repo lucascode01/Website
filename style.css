@@ -202,3 +202,35 @@ h1 {
     display: block; /* Certifique-se de que a imagem se comporte como um bloco */
     margin: 0 auto; /* Garante que a imagem seja centralizada */
 }
+
+
+
+/* Ajustes para telas pequenas (como celulares) */
+@media (max-width: 768px) {
+    .main4 {
+        padding: 20px;
+        height: auto;  /* Ajuste de altura para telas menores */
+    }
+
+    h1, h5 {
+        font-size: 1.2em; /* Ajuste no tamanho da fonte */
+    }
+
+    .projeto-img {
+        width: 100%; /* Faz com que as imagens ocupem 100% da largura disponível */
+        max-width: 300px; /* Limita o tamanho máximo das imagens */
+        margin: 10px auto; /* Centraliza as imagens */
+    }
+}
+
+/* Ajuste para telas muito pequenas (ex: celulares em modo retrato) */
+@media (max-width: 480px) {
+    h1, h5 {
+        font-size: 1em; /* Reduz ainda mais o tamanho da fonte */
+    }
+
+    .projeto-img {
+        width: 100%;
+        max-width: 250px; /* Ajusta as imagens ainda mais */
+    }
+}
