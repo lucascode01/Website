@@ -48,6 +48,9 @@ main {
     position: relative;
 }
 .main3, .main5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
     padding: 20px;
     background-color: #000000;
     color: #ffffff;
@@ -71,6 +74,7 @@ main {
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
 }
+
 #laptop {
     width: 700px;
     height: auto;
@@ -134,12 +138,12 @@ main {
     height: auto;
 }
 #vortex{
-    display: block;
     margin: auto;
     width: 700px;
     height: auto;
     margin-bottom: -190px;
 }
+
 #chess:hover {
     box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8);
 }
@@ -192,18 +196,31 @@ h1 {
     height: 100vh; /* Garante que o conteúdo ocupe a altura total da tela */
 }
   
-  .text-content {
+.text-content {
     text-align: center; /* Centraliza o texto dentro do contêiner */
 }
   
-  #wl {
+#wl {
     width: 10%; /* Ajuste o tamanho da imagem conforme necessário */
     height: auto;
     display: block; /* Certifique-se de que a imagem se comporte como um bloco */
     margin: 0 auto; /* Garante que a imagem seja centralizada */
 }
 
+.gradiente{
+    font-size: 28px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(192, 192, 192), rgb(0, 0, 0));
+    -webkit-background-clip: text; /* For WebKit browsers */
+    background-clip: text;
+    color: transparent; /* Make the text itself transparent */
+    padding: 40px;
+    text-align: center;
+    font-size: 2em;
+    
 
+
+}
 
 /* Ajustes para telas pequenas (como celulares) */
 @media (max-width: 768px) {
