@@ -13,9 +13,10 @@ body, html {
 
 }
 
-
+.logo{
+    height: 75px;
+}
 /*
-main6, contato, text- content, wl
 */
 body {
     font-family: Arial, sans-serif;
@@ -50,12 +51,19 @@ header nav a {
     height: 100vh;
 }
 main {
+
     background-image: url('static/2.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100vw;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ajusta para a altura da viewport */
+    
 }
 
 .main3{
@@ -106,7 +114,7 @@ main {
     margin: 0 auto;     
     text-align: center;
 }
-#servicos, #contato {
+#servicos {
     max-width: 800px;
     margin-top: 20px;
 }
@@ -254,13 +262,13 @@ h1 {
 }
 
 .gradiente, .projetos{
-    font-size: 15px;
+    font-size: 10px;
     background-image: linear-gradient(to right, rgb(192, 192, 192), rgb(0, 0, 0));
     -webkit-background-clip: text; /* For WebKit browsers */
     background-clip: text;
     color: transparent; /* Make the text itself transparent */
     font-size: 2em;
-    
+
 }
 
 .margin{
@@ -291,6 +299,11 @@ h1 {
     #perfil_profissional {
         font-size: 24px; /* Reduz o tamanho da fonte */
         margin: 20px 0;
+    }
+    .gradiente{
+        font-size: 24px; /* Reduz o tamanho da fonte */
+        margin: 20px 0;
+
     }
 
     /* Ajuste dos parágrafos dentro do container */
