@@ -126,12 +126,6 @@ main {
 .main3{
     position: relative;
 }
-
-.txtleft{
-     text-align: left;
-}
-
-
 #predio {
     position: relative;
     bottom: 0;
@@ -185,13 +179,12 @@ footer {
 h3 {
     font-family: 'Segoe UI', sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 22px;
     color: #929292;
     padding-left: 10px;
     border-left: 4px solid #929292;
     margin-bottom: 15px;
     margin-top: 15px;
-    text-align: left;
 }
 
 h5 {
@@ -224,13 +217,7 @@ h1 {
     text-align: center; /* Centraliza o texto dentro do contêiner */
 }
   
-#wl {
-    width: 10%; /* Ajuste o tamanho da imagem conforme necessário */
-    height: auto;
-    display: block; /* Certifique-se de que a imagem se comporte como um bloco */
-    margin: 0 auto; /* Garante que a imagem seja centralizada */
-    padding: 15px;
-}
+
 
 .gradiente{
     font-size: 15px;
@@ -278,7 +265,7 @@ h1 {
     }
 
     /* Se houver imagens que possam influenciar o layout */
-    #laptop, #predio, #chess {
+    #laptop, #predio, #chess{
         width: 100%;
         max-width: 100%;
         height: auto;
