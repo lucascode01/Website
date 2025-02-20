@@ -156,6 +156,8 @@ main {
     object-fit: cover;
     display: inline-block;
     margin: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
 }
 #chess {
     display: block;
@@ -316,7 +318,8 @@ h1 {
     .projeto-img {
         width: 100%; /* Faz com que as imagens ocupem 100% da largura disponível */
         max-width: 300px; /* Limita o tamanho máximo das imagens */
-        margin: 10px auto; /* Centraliza as imagens */
+        margin: 10px auto;
+        margin-top: 10px; /* Centraliza as imagens */
     }
 }
 
