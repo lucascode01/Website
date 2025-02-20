@@ -199,6 +199,19 @@ h3 {
     text-align: left;
 }
 
+.projetos {
+    font-size: 30px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, rgb(192, 192, 192), rgb(0, 0, 0));
+
+
+}
+
 h5 {
     font-size: 33px;
     text-align: center;
@@ -238,7 +251,7 @@ h1 {
 
 }
 
-.gradiente{
+.gradiente, .projetos{
     font-size: 15px;
     background-image: linear-gradient(to right, rgb(192, 192, 192), rgb(0, 0, 0));
     -webkit-background-clip: text; /* For WebKit browsers */
