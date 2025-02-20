@@ -12,6 +12,11 @@ body, html {
     align-items: center;
 
 }
+
+
+/*
+main6, contato, text- content, wl
+*/
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -75,7 +80,7 @@ main {
     color: #fff;
     padding:40px;
 }
-.main2, .main3 {
+.main2, .main3{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -199,9 +204,9 @@ h5 {
     text-align: center;
 }
 h6 {
-    font-size: 44px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 h2, #sobre, #sobre2 {
     text-align: center;
@@ -230,6 +235,7 @@ h1 {
     display: block; /* Certifique-se de que a imagem se comporte como um bloco */
     margin: 0 auto; /* Garante que a imagem seja centralizada */
     padding: 15px;
+
 }
 
 .gradiente{
@@ -278,10 +284,14 @@ h1 {
     }
 
     /* Se houver imagens que possam influenciar o layout */
-    #laptop, #predio, #chess {
+    #laptop, #predio, #chess{
         width: 100%;
         max-width: 100%;
         height: auto;
+    }
+
+    #wl{
+        width: 30%;
     }
 
     h1, h5 {
