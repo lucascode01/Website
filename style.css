@@ -16,8 +16,7 @@ body, html {
 .logo{
     height: 75px;
 }
-/*
-*/
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -69,6 +68,19 @@ main {
 .main3{
     background-color: #000000;
 
+}
+.main4 img {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+
+    transition: transform 0.3s ease;
+    transform: scale(1); /* Estado inicial */
+}
+  
+.main4 img.zoom {
+    transform: scale(1.1); /* Zoom in */
 }
 
 .main5{
@@ -234,6 +246,14 @@ h6 {
 h2, #sobre, #sobre2 {
     text-align: center;
 }
+
+.saibamais{
+    margin-bottom: 35px;
+    font-weight: normal;
+    font-size: 15px;
+    
+
+}
 h1 {
     font-weight: normal;
 }
@@ -272,8 +292,9 @@ h1 {
 }
 
 .margin{
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 15px;
+    font-weight: normal;
 }
 
 /* Ajustes para telas pequenas (como celulares) */
